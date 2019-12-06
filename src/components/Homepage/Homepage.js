@@ -1,32 +1,48 @@
+
 import React from 'react'
+
+import MenuItem from './MenuItem.js'
+
 import './homepage.styles.scss'
 
-const HomePage = () => (
+class Directory extends React.Component {
+  constructor () {
+    super()
 
-  <div className='homepage'>
-    <h1>JSH Store</h1>
-    <div className='directory-menu'>
-      <div className='menu-item'>
-        <div className='content'>
-          <div className='title'>JEANS</div>
-          <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-      <div className='menu-item'>
-        <div className='content'>
-          <div className='title'>SHIRTS</div>
-          <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-      <div className='menu-item'>
-        <div className='content'>
-          <div className='title'>HATS</div>
-          <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-    </div>
-  </div>
+    this.state = {
+      sections: [
+        {
+          title: 'jeans',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          id: 1,
+          linkUrl: 'jeans'
+        },
+        {
+          title: 'shirts',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          id: 2,
+          linkUrl: 'shirts'
+        },
+        {
+          title: 'hats',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          id: 3,
+          linkUrl: 'hats'
+        }
 
-)
+      ]
+    }
+  }
 
-export default HomePage
+  render () {
+    return (
+      <div className='directory-menu'>
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem key={id} {...otherSectionProps} />
+        ))}
+      </div>
+    )
+  }
+}
+
+export default Directory

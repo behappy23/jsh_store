@@ -62,36 +62,36 @@ const ShopData = [
   },
   {
 
-    id: 3,
+    id: 10,
     title: 'Jackets',
     routeName: 'jackets',
     items: [
       {
-        id: 18,
+        id: 11,
         name: 'Black Jean Shearling',
         imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
         price: 125
       },
       {
-        id: 19,
+        id: 12,
         name: 'Blue Jean Jacket',
         imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
         price: 90
       },
       {
-        id: 20,
+        id: 13,
         name: 'Grey Jean Jacket',
         imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
         price: 90
       },
       {
-        id: 21,
+        id: 14,
         name: 'Brown Shearling',
         imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
         price: 165
       },
       {
-        id: 22,
+        id: 15,
         name: 'Tan Trench',
         imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
         price: 185
@@ -100,42 +100,42 @@ const ShopData = [
   },
 
   {
-    id: 5,
+    id: 16,
     title: 'Shirts',
     routeName: 'mens',
     items: [
       {
-        id: 30,
+        id: 17,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
         price: 325
       },
       {
-        id: 31,
+        id: 18,
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20
       },
       {
-        id: 32,
+        id: 19,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
       {
-        id: 33,
+        id: 20,
         name: 'Pink T-shirt',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
         price: 25
       },
       {
-        id: 34,
+        id: 21,
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
       {
-        id: 35,
+        id: 22,
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25

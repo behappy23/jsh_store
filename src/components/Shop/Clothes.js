@@ -1,8 +1,8 @@
 import React from 'react'
 
 import ClothesItem from './ClothesItem.js'
-
 import './ClothesStyles.scss'
+import './Preview.scss'
 
 const Clothes = ({ title, items }) => (
   <div className='clothes'>
